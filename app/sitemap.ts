@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next'
 import { createClient } from '@/lib/supabase/server'
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-    const baseUrl = 'https://celutronix.vercel.app' // Replace with your actual domain
+    const baseUrl = 'https://moonparet.vercel.app'
 
     // Static routes
     const routes = [

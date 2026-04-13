@@ -21,7 +21,7 @@ export function HeroSection() {
                     >
                         <div className="space-y-3 md:space-y-4">
                             <h1 className="text-[clamp(3rem,12vw,12rem)] md:text-[clamp(4rem,15vw,12rem)] font-bold leading-[0.85] tracking-tighter text-white">
-                                urb.
+                                mnp.
                             </h1>
 
                             <div className="max-w-xs space-y-2">

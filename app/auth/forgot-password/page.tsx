@@ -58,7 +58,7 @@ export default function ForgotPasswordPage() {
                 <div className="w-12 h-12 rounded-xl bg-forest-600/30 backdrop-blur-sm flex items-center justify-center">
                   <Sparkles className="w-6 h-6 text-white" />
                 </div>
-                <span className="text-2xl font-bold text-white">Urban Style</span>
+                <span className="text-2xl font-bold text-white">Moonparet</span>
               </div>
 
               <div className="space-y-6">
@@ -84,7 +84,7 @@ export default function ForgotPasswordPage() {
             </div>
 
             <div className="relative z-10 mt-8">
-              <p className="text-white/60 text-xs">© 2025 Urban Style. Todos los derechos reservados.</p>
+              <p className="text-white/60 text-xs">© 2025 Moonparet. Todos los derechos reservados.</p>
             </div>
           </div>
 

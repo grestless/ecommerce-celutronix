@@ -91,7 +91,7 @@ export function Footer() {
               <div className="flex h-10 w-10 items-center justify-center rounded-full bg-forest-600">
                 <Package className="h-6 w-6 text-white" />
               </div>
-              <span className="text-xl font-bold text-forest-300">Urban Style</span>
+              <span className="text-xl font-bold text-forest-300">Moonparet</span>
             </div>
             <p className="text-sm text-zinc-400 leading-relaxed">
               Tu tienda de confianza para ropa urbana minimalista y atemporal.
@@ -177,7 +177,7 @@ export function Footer() {
         </div>
 
         <div className="mt-8 pt-8 border-t border-zinc-800/50 text-center text-sm text-zinc-500">
-          <p>&copy; {new Date().getFullYear()} Urban Style. Todos los derechos reservados.</p>
+          <p>&copy; {new Date().getFullYear()} Moonparet. Todos los derechos reservados.</p>
         </div>
       </div>
     </footer>

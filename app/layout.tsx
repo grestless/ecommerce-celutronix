@@ -13,35 +13,35 @@ const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: {
-    default: "Urban Style - Moda Urbana Minimalista",
-    template: "%s | Urban Style",
+    default: "Moonparet - Moda Urbana Minimalista",
+    template: "%s | Moonparet",
   },
   description:
     "Descubre nuestra colección de ropa urbana minimalista. Calzado, remeras, pantalones y accesorios con estilo único.",
-  keywords: ["moda", "ropa urbana", "minimalista", "calzado", "remeras", "pantalones", "accesorios", "argentina"],
-  authors: [{ name: "Urban Style" }],
-  creator: "Urban Style",
-  publisher: "Urban Style",
+  keywords: ["moda", "ropa urbana", "minimalista", "calzado", "remeras", "pantalones", "accesorios", "argentina", "moonparet"],
+  authors: [{ name: "Moonparet" }],
+  creator: "Moonparet",
+  publisher: "Moonparet",
   formatDetection: {
     email: false,
     address: false,
     telephone: false,
   },
-  metadataBase: new URL("https://celutronix.vercel.app/"),
+  metadataBase: new URL("https://moonparet.vercel.app/"),
   alternates: {
     canonical: "/",
   },
   openGraph: {
-    title: "Urban Style - Moda Urbana Minimalista",
+    title: "Moonparet - Moda Urbana Minimalista",
     description: "Descubre nuestra colección de ropa urbana minimalista con estilo único.",
-    url: "https://celutronix.vercel.app/",
-    siteName: "Urban Style",
+    url: "https://moonparet.vercel.app/",
+    siteName: "Moonparet",
     images: [
       {
-        url: "/og-image.jpg", // Ensure this image exists or use a placeholder
+        url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Urban Style",
+        alt: "Moonparet",
       },
     ],
     locale: "es_AR",
@@ -49,9 +49,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Urban Style - Moda Urbana Minimalista",
+    title: "Moonparet - Moda Urbana Minimalista",
     description: "Descubre nuestra colección de ropa urbana minimalista.",
-    creator: "@urbanstyle",
+    creator: "@moonparet",
     images: ["/og-image.jpg"],
   },
   robots: {
@@ -78,7 +78,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           defaultTheme="dark"
           forcedTheme="dark"
           enableSystem={false}
-          storageKey="urban-style-theme"
+          storageKey="moonparet-theme"
         >
           <ErrorBoundary>
             <Header />

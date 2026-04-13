@@ -15,13 +15,13 @@ export default async function HomePage() {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    name: "Urban Style",
-    url: "https://celutronix.vercel.app",
-    logo: "https://celutronix.vercel.app/celutronix-logo-new.png",
+    name: "Moonparet",
+    url: "https://moonparet.vercel.app",
+    logo: "https://moonparet.vercel.app/moonparet-logo.png",
     sameAs: [
-      "https://facebook.com/urbanstyle",
-      "https://instagram.com/urbanstyle",
-      "https://twitter.com/urbanstyle"
+      "https://facebook.com/moonparet",
+      "https://instagram.com/moonparet",
+      "https://twitter.com/moonparet"
     ],
     contactPoint: {
       "@type": "ContactPoint",

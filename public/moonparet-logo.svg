@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 80" fill="none">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&amp;display=swap');
+  </style>
+  <text
+    x="0"
+    y="60"
+    font-family="'Space Grotesk', sans-serif"
+    font-size="62"
+    font-weight="500"
+    letter-spacing="1.5"
+    fill="white"
+  >moonparet.</text>
+</svg>
