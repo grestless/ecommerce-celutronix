@@ -31,15 +31,23 @@ export default function ResetPasswordPage() {
     }
 
     setIsLoading(true)
+    console.log("[DEBUG] Formulario enviado, cargando: true")
 
     try {
-      const supabase = createClient()
-      const { error } = await supabase.auth.updateUser({
-        password: password,
+      console.log("[DEBUG] Enviando petición al servidor (API route)...")
+      
+      const response = await fetch("/api/auth/reset-password", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ password })
       })
 
-      if (error) {
-        toast.error(error.message || "Error al actualizar la contraseña")
+      const data = await response.json()
+      console.log("[DEBUG] Respuesta del servidor:", data)
+
+      if (!response.ok) {
+        toast.error(data.error || "Error al actualizar la contraseña")
+        setIsLoading(false)
         return
       }
 
